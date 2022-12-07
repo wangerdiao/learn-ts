@@ -23,11 +23,15 @@ class Food{
         let top = Math.round(Math.random()*29)*10
         this.element.style.left = left +'px'
         this.element.style.top = top + 'px'
+        console.log(top);
+        console.log(left);
+        
     }
 }
 //测试代码
 // const food = new Food()
 // console.log(food.X,food.Y);
 // food.change()
+//console.log(111)
 
 export default Food
