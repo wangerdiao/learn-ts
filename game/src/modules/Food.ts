@@ -23,9 +23,6 @@ class Food{
         let top = Math.round(Math.random()*29)*10
         this.element.style.left = left +'px'
         this.element.style.top = top + 'px'
-        console.log(top);
-        console.log(left);
-        
     }
 }
 //测试代码

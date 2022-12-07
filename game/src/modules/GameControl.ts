@@ -15,7 +15,7 @@ class GameControl {
     constructor() {
         this.snake = new Snake()
         this.food = new Food()
-        this.scorePanel = new ScorePanel()
+        this.scorePanel = new ScorePanel(10,1)
     }
     //游戏初始化的方法，调用后游戏就开始了
     init() {
